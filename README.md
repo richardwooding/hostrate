@@ -2,6 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/richardwooding/hostrate.svg)](https://pkg.go.dev/github.com/richardwooding/hostrate)
 [![Go](https://github.com/richardwooding/hostrate/actions/workflows/go.yml/badge.svg)](https://github.com/richardwooding/hostrate/actions/workflows/go.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/richardwooding/hostrate)](https://goreportcard.com/report/github.com/richardwooding/hostrate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A tiny, dependency-light `http.RoundTripper` that rate-limits outbound HTTP
@@ -114,6 +115,10 @@ Eviction is performed opportunistically (no background goroutine, nothing to
   [failsafe-go](https://github.com/failsafe-go/failsafe-go),
   [sony/gobreaker](https://github.com/sony/gobreaker),
   [hashicorp/go-retryablehttp](https://github.com/hashicorp/go-retryablehttp).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 ## License
 
