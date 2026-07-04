@@ -5,6 +5,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/richardwooding/hostrate)](https://goreportcard.com/report/github.com/richardwooding/hostrate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+**Website:** [richardwooding.github.io/hostrate](https://richardwooding.github.io/hostrate/)
+
 A tiny, dependency-light `http.RoundTripper` that rate-limits outbound HTTP
 requests **per host** (or by any key you choose), so your client stays polite to
 each remote server independently instead of sharing one global budget across all
